@@ -1,0 +1,139 @@
+.content-container {
+  background-color: #000000;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  width: 100%;
+  overflow-y: auto;
+}
+.item-container {
+  width: 100%;
+}
+.heading-visit-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.hyperlink-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 24px;
+}
+.link {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+.skills-list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.loader {
+  background-color: #000000;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.skill-img {
+  width: 50px;
+  height: 50px;
+  align-self: center;
+  margin-right: 15px;
+}
+.Name {
+  font-size: 22px;
+  color: #ffffff;
+}
+.Head {
+  color: #ffffff;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.Description {
+  margin-bottom: 20px;
+  color: #7e858e;
+}
+.job-description {
+  color: #7e858e;
+}
+.life-container {
+  display: flex;
+  flex-direction: column;
+}
+.life-image {
+  width: 100%;
+}
+.job-item {
+  background-color: #272727;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.similar-jobs-container {
+  display: flex;
+  flex-direction: column;
+}
+.head {
+  color: #ffffff;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.jobs-list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .description-image-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .Description {
+    width: 60%;
+  }
+  .life-image {
+    width: 40%;
+    margin-left: 20px;
+  }
+  .jobs-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .job-item {
+    margin-right: 20px;
+    width: 400px;
+  }
+  .Head {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,72 @@
+.navbar {
+  background-color: #2c364c;
+  background-color: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: 30px;
+}
+.tabs-container {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.routes-container {
+  display: none;
+}
+.logout-btn {
+  display: none;
+}
+.route-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 22px;
+  color: #ffffff;
+  text-align: center;
+}
+.icon {
+  color: #ffffff;
+  margin-left: 10px;
+}
+@media (min-width: 768px) {
+  .tabs-container {
+    display: none;
+  }
+  .routes-container {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+  }
+  .route {
+    font-weight: bold;
+    font-size: 22px;
+    color: #ffffff;
+    margin-right: 20px;
+  }
+  .logout-btn {
+    display: flex;
+    color: #ffffff;
+    width: 100px;
+    background-color: #4f46e5;
+    border: none;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+  }
+}

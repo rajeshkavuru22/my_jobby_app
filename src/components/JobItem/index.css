@@ -1,0 +1,87 @@
+.item-container {
+  background-color: #272727;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+.job-link {
+  text-decoration: none;
+}
+.top-container {
+  display: flex;
+  flex-direction: row;
+}
+.company-logo {
+  width: 90px;
+  height: 90px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-size: 25px;
+  margin: 0px;
+}
+.type-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+.star {
+  color: #fbbf24;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  align-self: center;
+}
+.text {
+  font-weight: bold;
+  font-size: 25px;
+  align-self: center;
+}
+.middle-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.location-type-container {
+  display: flex;
+  flex-direction: row;
+}
+.icon {
+  color: #ffffff;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  align-self: center;
+}
+.head {
+  margin-bottom: 10px;
+}
+.job-description {
+  font-size: 18px;
+  margin: 0px;
+}
+.hrline {
+  color: aquamarine;
+  width: 100%;
+  height: 2px;
+}
+.job-item-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
